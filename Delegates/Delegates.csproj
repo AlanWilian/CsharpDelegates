@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalculationService.cs" />
     <Compile Include="Photo.cs" />
     <Compile Include="PhotoFilters.cs" />
     <Compile Include="PhotoProcessor.cs" />

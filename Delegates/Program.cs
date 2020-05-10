@@ -20,8 +20,6 @@ namespace Delegates
 
             processor.Process("photo.jpg", filterHandler);
 
-
-
             double a = 10;
             double b = 12;
             BinaryNumericOperation op = CalculationService.Sum;
@@ -29,7 +27,6 @@ namespace Delegates
             // double result = op(a, b);
             double result = op.Invoke(a, b);
             Console.WriteLine(result);
-
 
             //BinaryNumericOperation op = CalculationService.ShowSum;
             //op += CalculationService.ShowMax;
